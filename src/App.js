@@ -17,6 +17,7 @@ function App() {
         <div className="spaceship"><img src={Planet} alt="planet" /></div>
       </header>
       <section className='apod-img'>
+        {data && <p>A simple web app that shows you NASA satellite images from a specified data and persists the changes you make.</p>}
         {error && <p className='error'>{error}</p>}
         {isPending && <p className='loading'>loading...</p>}
         {data && data.map(data => (
