@@ -17,7 +17,7 @@ export default function ImageList({image, handleChoice}) {
 
 
   return (
-    <div className="img-card">
+    <article className="img-card">
         <h2>{image.title}</h2>
         <img src={image.hdurl} alt="planet or space object" />
         <div className="img-meta">
@@ -37,6 +37,6 @@ export default function ImageList({image, handleChoice}) {
                 </span>
             </button>
         </div>
-    </div>
+    </article>
   )
 }

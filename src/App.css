@@ -9,10 +9,24 @@ header{
   padding: 10px 0;
   margin-bottom: 10px;
 }
-.apod-img p:first-child{
+.apod-img p:first-child, .date-picker{
   margin-bottom: 40px;
   font-weight: 16px;
   font-weight: 500;
+}
+.date-picker p{
+  margin-bottom: 7px;
+}
+.date-picker input{
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 7px;
+}
+.loader{
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 30px auto;
 }
 @media(max-width:600px){
   .App{
